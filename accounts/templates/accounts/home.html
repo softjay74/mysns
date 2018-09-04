@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title> Home </title>
+{% endblock %}
+    
+{% block body%}
+            <div class="jumbotron">
+                <h1>Welcome!! </h1>
+                <p>Account page</p> 
+            </div>
+            {{ form.error }}
+            <form method="post">
+              {% csrf_token %}
+              
+                {{ form.post }}
+              <br/>
+              <button type="submit">Submit</button>
+            </form>
+            {% for post in posts %}
+                <h3>{{post.post}}</h3>
+                <p>post on {{post.created}}</p>
+                <a href="" type="button" class="btn btn-primary" >Edit</a>
+                <a href="" type="button" class="btn btn-danger">Delete</a>
+            {% endfor %}
+{% endblock %}        

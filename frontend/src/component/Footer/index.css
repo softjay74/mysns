@@ -1,0 +1,17 @@
+
+.footer{
+    min-height:120px;
+    background-color:lightblue;
+}
+
+
+  .social li {
+    margin: 10px;  
+    display: inline;
+    padding : 10px;
+  }
+  .copyright {
+    text-align: center;
+    background-color:lightblue;
+  }
+ 

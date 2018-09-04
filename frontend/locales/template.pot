@@ -1,0 +1,48 @@
+#: src/component/Auth/presenter.js
+msgid "Username"
+msgstr ""
+
+#: src/component/Auth/presenter.js
+msgid "Password"
+msgstr ""
+
+#: src/component/Auth/presenter.js
+msgid "Login"
+msgstr ""
+
+#: src/component/Auth/presenter.js
+msgid "Forget password"
+msgstr ""
+
+#: src/component/Auth/presenter.js
+msgid "Don't have an account ?"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "About Us"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "Support"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "Blog"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "Press"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "Jobs"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "Pravacy"
+msgstr ""
+
+#: src/component/Footer/index.js
+msgid "Terms"
+msgstr ""
+

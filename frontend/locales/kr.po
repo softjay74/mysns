@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Language: kr"
+
+
+#: src/component/Footer/index.js
+msgid "About Us"
+msgstr "우리는"
+
+#: src/component/Footer/index.js
+msgid "Support"
+msgstr "지원"
+
+#: src/component/Footer/index.js
+msgid "Blog"
+msgstr "블로그"
+
+#: src/component/Footer/index.js
+msgid "Press"
+msgstr "뉴스레터"
+
+#: src/component/Footer/index.js
+msgid "Jobs"
+msgstr "채용정보"
+
+#: src/component/Footer/index.js
+msgid "Pravacy"
+msgstr "개인정보보호"
+
+#: src/component/Footer/index.js
+msgid "Terms"
+msgstr "텀"
+
+#: src/component/Auth/presenter.js
+msgid "Username"
+msgstr "회원아이디"
+
+#: src/component/Auth/presenter.js
+msgid "Password"
+msgstr "패스워드"
+
+#: src/component/Auth/presenter.js
+msgid "Login"
+msgstr "로그인"
+
+#: src/component/Auth/presenter.js
+msgid "Forget password"
+msgstr "패스워드를 잃어버리셨나요?"
+
+#: src/component/Auth/presenter.js
+msgid "Don't have an account ?"
+msgstr "새 어카운트 만들기"

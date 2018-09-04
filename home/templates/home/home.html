@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title> Home </title>
+{% endblock %}
+    
+{% block body%}
+            <div class="jumbotron">
+                <h1>Welcome!! </h1>
+                <p>Account page</p> 
+            </div>
+            <div class='col-xs-12 col-md-8'>
+                {% for post in posts %}
+                    <h1>{{ post.post }}</h1>
+                   
+                    <p>Posted by {{post.user.get_full_name}} on {{post.created}}</p>
+                {% endfor %}
+            </div>
+            <div class='col-xs-12 col-md-4'>
+                <h2> Other People</h2>
+                {% for user in users %}
+                    <h3>{{user.username}}</h3>
+                    {{user.image.url}}
+                    {{user.get_full_name}}
+                {% endfor %}
+
+            </div>
+            
+
+
+
+
+{% endblock %}        
